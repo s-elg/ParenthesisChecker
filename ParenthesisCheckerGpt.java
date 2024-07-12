@@ -4,7 +4,7 @@ public class ParenthesisCheckerGpt {
 
     // Method to check if parentheses are balanced using a Stack
     public static boolean areParenthesesBalanced(String expression) {
-        Stack<Character> stack = new Stack<>();
+        Stack<Character> stack = new Stack<>(); //lifo mantığıyla çalıştığı için onu seçtik, stack'e son eklenen parantez ilk olarak kapanması lazım
 
         // Traverse the expression
         for (char ch : expression.toCharArray()) {
