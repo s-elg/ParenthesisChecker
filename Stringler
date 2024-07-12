@@ -1,0 +1,14 @@
+String[] testExpressions = {
+            "()",         // Dengeli
+            "(]",         // Dengesiz
+            "({[]})",     // Dengeli
+            "({[)]}",     // Dengesiz
+            "",           // Dengeli (boş metin)
+            "((()))",     // Dengeli
+            "(()"         // Dengesiz
+        };
+
+        // Her ifadeyi test ediyor ve sonucu yazdırıyoruz.
+        for (String expression : testExpressions) {
+            ParenthesisChecker checker = new ParenthesisChecker(expression);
+            System.out.println("Expression: " + expression + " is " + (checker.isBalanced() ? "Balanced" : "Not Balanced"));
