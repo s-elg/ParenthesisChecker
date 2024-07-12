@@ -2,7 +2,7 @@ String[] testExpressions = {
             "()",         // Dengeli
             "(]",         // Dengesiz
             "({[]})",     // Dengeli
-            "({[)]}",     // Dengesiz, yazdığım kod bunu dengeli olarak kabul ediyo sayarak gittiğim için onu düzelt
+            "({[)]}",     // Dengesiz, yazdığım kod bunu dengeli olarak kabul ediyo sayarak gittiğim için onu düzeltmeliyim
             "",           // Dengeli (boş metin)
             "((()))",     // Dengeli
             "(()"         // Dengesiz
