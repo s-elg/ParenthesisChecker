@@ -1,8 +1,8 @@
 public class ParanthesisChecker {
    public static boolean isBalanced(String expression) {
-   		int paranthesis = 0;
-        int curlyBrace = 0;
-        int bracket = 0;
+   	int paranthesis = 0;
+      int curlyBrace = 0;
+      int bracket = 0;
         
         for (int i = 0; i < expression.length(); i++) {
             char x = expression.charAt(i);
