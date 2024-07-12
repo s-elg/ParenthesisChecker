@@ -10,5 +10,5 @@ String[] testExpressions = {
 
         // Her ifadeyi test ediyor ve sonucu yazdırıyoruz.
         for (String expression : testExpressions) {
-            ParenthesisChecker checker = new ParenthesisChecker(expression);
-            System.out.println("Expression: " + expression + " is " + (checker.isBalanced() ? "Balanced" : "Not Balanced"));
+            System.out.println("Expression: " + expression + " is " + (isBalanced(expression) ? "Balanced" : "Not Balanced"));
+}
