@@ -1,4 +1,4 @@
-public class ParanthesisChecker {
+public class ParanthesisChecker2 {
    public static boolean isBalanced(String expression) {
    	int paranthesis = 0;
       int curlyBrace = 0;
